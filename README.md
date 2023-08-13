@@ -29,8 +29,8 @@ To run this implementation, you need:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/elcruzo/hangman-game.git
-   cd hangman-game
+   git clone https://github.com/elcruzo/video-gif-converter.git
+   cd video-gif-converter
    ```
 
 2. Ensure you have Python 3.x installed. You can check by running:
@@ -40,6 +40,12 @@ To run this implementation, you need:
    ```
 
    If Python is not installed, you can download it from the official [Python website](https://www.python.org/downloads/).
+
+3. Install the MoviePy library by running:
+    ```bash
+   pip install moviepy
+   pip install --upgrade moviepy
+   ```
 
 ## Usage
 
@@ -53,21 +59,19 @@ To run this implementation, you need:
    python3 index.py
    ```
 
-6. Upon execution, the script will present a pop-up displaying a text input field represented with underscores in which you type in a letter and submit your guess.
+6. Upon execution, the script will convert the video to a GIF format and you can process to check it out.
 
-7. If you run into any errors saying "FileNotFoundError: [Errno 2] No such file or directory", replace the path of the "wordlist.txt" (on the third line of the script) with it's relative path on your local machine.
+7. You can replace the "video.mp4" (on the third line of the script) with any video file name of your choice as long as you have it on your local machine and can reference it in the script.
 
 ## Example
 
 Here's a brief example of how to run the code:
 
 ```bash
-git clone https://github.com/elcruzo/hangman-game.git
-cd hangman-game
+git clone https://github.com/elcruzo/video-gif-converter.git
+cd video-gif-converter
 python3 index.py
 ```
-
-You will see a "Remaining attempts" note, displayed beneath the input field and upon each correct letter guess, the underscores would be replaced with the letters indicating the position of the letter in the that word until you guess the word correctly.
 
 ## Contributions
 
@@ -79,5 +83,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Have fun playing my Hangman Game! If you have any questions or run into issues, don't hesitate to ask for help.
+Have fun playing using my Video to GIF Converter! If you have any questions or run into issues, don't hesitate to ask for help.
 
