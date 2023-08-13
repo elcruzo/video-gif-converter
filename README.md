@@ -83,5 +83,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Have fun playing using my Video to GIF Converter! If you have any questions or run into issues, don't hesitate to ask for help.
+Have fun using my Video to GIF Converter! If you have any questions or run into issues, don't hesitate to ask for help.
 
