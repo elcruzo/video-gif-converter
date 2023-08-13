@@ -22,7 +22,6 @@ To run this implementation, you need:
 
 - Python 3.x
 - The `MoviePy` module
-- The `ImageIO` module
 
 ## Installation
 
